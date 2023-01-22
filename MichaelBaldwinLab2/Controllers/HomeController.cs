@@ -26,5 +26,12 @@ namespace MichaelBaldwinLab2.Controllers
 
             return View();
         }
+
+        public ActionResult Backbone()
+        {
+            ViewBag.Message = "InLine Background technology";
+
+            return View();
+        }
     }
 }

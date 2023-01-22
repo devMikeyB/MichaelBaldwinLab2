@@ -5,7 +5,7 @@
 <div class="jumbotron">
     <h1>InLine</h1>
     <p class="lead">InLine is a free mobile app which allows you to predict wait times at different venues.</p>
-    <p><a href="https://asp.net" class="btn btn-primary btn-lg">Learn more &raquo;</a></p>
+    <p>@Html.ActionLink("Learn More!", "Backbone", "Home", null, new { @class = "btn btn-primary btn-lg" })</p>
 </div>
 
 <div class="row">
@@ -14,7 +14,8 @@
         <p>
             InLine lets YOU be in charge of your wait times. Click here to learn about the team.
         </p>
-        <p><a class="btn btn-default" href="https://go.microsoft.com/fwlink/?LinkId=301865">Learn more &raquo;</a></p>
+        <p>@Html.ActionLink("About", "About", "Home", null, new {@class = "btn btn-default" })</p>
+        
     </div>
     <div class="col-md-4">
         <h2>Get on Android</h2>
